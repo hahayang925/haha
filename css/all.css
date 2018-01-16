@@ -50,7 +50,7 @@ table {
   box-sizing: border-box; }
 
 body {
-  font-family: "Cabin Sketch", "微軟正黑體", cursive; }
+  font-family: "Cabin Sketch", " Microsoft JhengHei",cursive; }
 
 a {
   text-decoration: none;
@@ -381,7 +381,8 @@ a {
   position: relative;
   width: 100%;
   height: 300px;
-  padding-top: 280px; }
+  padding-top: 280px;
+  cursor:pointer; }
   .flipper .flipper_title {
     margin: 0 auto;
     text-align: center;
@@ -512,7 +513,7 @@ a {
   .workshop img {
     opacity: 0;
     float: left;
-    display: inline-block;
+    /* display: inline-block; */
     width: 32.333%;
     height: auto;
     margin: 1% 0.5% 2% 0.5%;
